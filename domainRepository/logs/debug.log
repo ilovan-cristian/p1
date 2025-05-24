@@ -1,0 +1,30 @@
+2025-03-24 10:37:08,866 [main] TRACE ro.mpp2025.Repository.EmployeeRepoDb - Constructed repository
+2025-03-24 10:37:08,869 [main] TRACE ro.mpp2025.Repository.ClientRepoDb - Constructed repository
+2025-03-24 10:37:08,869 [main] TRACE ro.mpp2025.Repository.FlightRepoDb - Constructed repository
+2025-03-24 10:37:08,869 [main] TRACE ro.mpp2025.Repository.TicketRepoDb - Constructed repository
+2025-03-24 10:37:08,870 [main] TRACE ro.mpp2025.Repository.TicketRepoDb - Caut toate obiectele
+2025-03-24 10:41:13,738 [main] TRACE ro.mpp2025.Repository.EmployeeRepoDb - Constructed repository
+2025-03-24 10:41:13,740 [main] TRACE ro.mpp2025.Repository.ClientRepoDb - Constructed repository
+2025-03-24 10:41:13,740 [main] TRACE ro.mpp2025.Repository.FlightRepoDb - Constructed repository
+2025-03-24 10:41:13,741 [main] TRACE ro.mpp2025.Repository.TicketRepoDb - Constructed repository
+2025-03-24 10:41:13,742 [main] TRACE ro.mpp2025.Repository.ClientRepoDb - Caut toate obiectele
+2025-03-24 12:21:30,520 [main] TRACE ro.mpp2025.Repository.EmployeeRepoDb - Constructed repository
+2025-03-24 12:21:30,523 [main] TRACE ro.mpp2025.Repository.ClientRepoDb - Constructed repository
+2025-03-24 12:21:30,524 [main] TRACE ro.mpp2025.Repository.FlightRepoDb - Constructed repository
+2025-03-24 12:21:30,526 [main] TRACE ro.mpp2025.Repository.TicketRepoDb - Constructed repository
+2025-03-24 12:21:30,526 [main] TRACE ro.mpp2025.Repository.ClientRepoDb - Caut toate obiectele
+2025-03-24 12:31:00,798 [main] TRACE ro.mpp2025.Repository.EmployeeRepoDb - Constructed repository
+2025-03-24 12:31:00,804 [main] TRACE ro.mpp2025.Repository.ClientRepoDb - Constructed repository
+2025-03-24 12:31:00,806 [main] TRACE ro.mpp2025.Repository.FlightRepoDb - Constructed repository
+2025-03-24 12:31:00,808 [main] TRACE ro.mpp2025.Repository.TicketRepoDb - Constructed repository
+2025-03-24 12:31:00,808 [main] TRACE ro.mpp2025.Repository.ClientRepoDb - Caut toate obiectele
+2025-03-24 12:33:41,665 [main] TRACE ro.mpp2025.Repository.EmployeeRepoDb - Constructed repository
+2025-03-24 12:33:41,667 [main] TRACE ro.mpp2025.Repository.ClientRepoDb - Constructed repository
+2025-03-24 12:33:41,668 [main] TRACE ro.mpp2025.Repository.FlightRepoDb - Constructed repository
+2025-03-24 12:33:41,668 [main] TRACE ro.mpp2025.Repository.TicketRepoDb - Constructed repository
+2025-03-24 12:33:41,668 [main] TRACE ro.mpp2025.Repository.ClientRepoDb - Caut toate obiectele
+2025-03-28 11:54:58,330 [main] TRACE ro.mpp2025.Repository.EmployeeRepoDb - Constructed repository
+2025-03-28 11:54:58,335 [main] TRACE ro.mpp2025.Repository.ClientRepoDb - Constructed repository
+2025-03-28 11:54:58,336 [main] TRACE ro.mpp2025.Repository.FlightRepoDb - Constructed repository
+2025-03-28 11:54:58,338 [main] TRACE ro.mpp2025.Repository.TicketRepoDb - Constructed repository
+2025-03-28 11:54:58,338 [main] TRACE ro.mpp2025.Repository.ClientRepoDb - Caut toate obiectele

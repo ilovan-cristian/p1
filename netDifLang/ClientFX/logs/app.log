@@ -1,0 +1,314 @@
+2025-05-03 11:56:04 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-05-03 11:56:04 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-05-03 11:56:04 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-05-03 11:56:04 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-05-03 11:56:13 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-05-03 11:56:13 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-05-03 11:56:13 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-05-03 11:56:13 [JavaFX Application Thread] ERROR copilot12354.mpp.jsonprotocol.ServicesJsonProxy - java.net.ConnectException: Connection refused
+2025-05-03 11:56:13 [JavaFX Application Thread] ERROR copilot12354.mpp.jsonprotocol.ServicesJsonProxy - [Ljava.lang.StackTraceElement;@b67428b
+2025-05-03 11:58:17 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-05-03 11:58:17 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-05-03 11:58:17 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-05-03 11:58:17 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-05-03 11:58:27 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-05-03 11:58:27 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-05-03 11:58:27 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-05-03 11:58:27 [JavaFX Application Thread] ERROR copilot12354.mpp.jsonprotocol.ServicesJsonProxy - java.net.ConnectException: Connection refused
+2025-05-03 11:58:27 [JavaFX Application Thread] ERROR copilot12354.mpp.jsonprotocol.ServicesJsonProxy - [Ljava.lang.StackTraceElement;@2ceec103
+2025-05-03 11:59:17 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-05-03 11:59:17 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-05-03 11:59:17 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-05-03 11:59:17 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-05-03 11:59:23 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-05-03 11:59:23 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-05-03 11:59:23 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-05-03 11:59:23 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK"}
+2025-05-03 11:59:23 [JavaFX Application Thread] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - class ServicesJsonProxy login() - TRYING
+2025-05-03 11:59:23 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController initialize()
+2025-05-03 11:59:23 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController refresh()
+2025-05-03 11:59:24 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 11:59:24 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - Flights: [Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=1000, location='RO Cluj-Napoca'}, Flight{id=2, destination='RO Cluj-Napoca', departure=0025-09-15T05:00, seats=1, location='RO Bucharest'}]
+2025-05-03 11:59:24 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController ~refresh()
+2025-05-03 12:12:23 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-05-03 12:12:23 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-05-03 12:12:23 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-05-03 12:12:23 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-05-03 12:12:27 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-05-03 12:12:27 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-05-03 12:12:27 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-05-03 12:12:27 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK"}
+2025-05-03 12:12:27 [JavaFX Application Thread] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - class ServicesJsonProxy login() - TRYING
+2025-05-03 12:12:28 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController initialize()
+2025-05-03 12:12:28 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController refresh()
+2025-05-03 12:12:28 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 12:12:28 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - Flights: [Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=1000, location='RO Cluj-Napoca'}, Flight{id=2, destination='RO Cluj-Napoca', departure=0025-09-15T05:00, seats=1, location='RO Bucharest'}]
+2025-05-03 12:12:28 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController ~refresh()
+2025-05-03 12:13:10 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-05-03 12:13:10 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-05-03 12:13:10 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-05-03 12:13:10 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-05-03 12:13:14 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-05-03 12:13:14 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-05-03 12:13:14 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-05-03 12:13:14 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK"}
+2025-05-03 12:13:14 [JavaFX Application Thread] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - class ServicesJsonProxy login() - TRYING
+2025-05-03 12:13:14 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController initialize()
+2025-05-03 12:13:14 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController refresh()
+2025-05-03 12:13:15 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 12:13:15 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - Flights: [Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=1000, location='RO Cluj-Napoca'}, Flight{id=2, destination='RO Cluj-Napoca', departure=0025-09-15T05:00, seats=1, location='RO Bucharest'}]
+2025-05-03 12:13:15 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController ~refresh()
+2025-05-03 12:15:35 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-05-03 12:15:35 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-05-03 12:15:35 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-05-03 12:15:35 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-05-03 12:15:39 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-05-03 12:15:39 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-05-03 12:15:39 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-05-03 12:15:39 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK"}
+2025-05-03 12:15:39 [JavaFX Application Thread] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - class ServicesJsonProxy login() - TRYING
+2025-05-03 12:15:39 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController initialize()
+2025-05-03 12:15:39 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController refresh()
+2025-05-03 12:15:40 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 12:15:40 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - Flights: [Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=1000, location='RO Cluj-Napoca'}, Flight{id=2, destination='RO Cluj-Napoca', departure=0025-09-15T05:00, seats=1, location='RO Bucharest'}]
+2025-05-03 12:15:40 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController ~refresh()
+2025-05-03 12:22:48 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-05-03 12:22:48 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-05-03 12:22:48 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-05-03 12:22:48 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-05-03 12:22:56 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-05-03 12:22:56 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-05-03 12:22:56 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-05-03 12:23:12 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received null
+2025-05-03 12:25:57 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-05-03 12:25:57 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-05-03 12:25:57 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-05-03 12:25:57 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-05-03 12:26:03 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-05-03 12:26:03 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-05-03 12:26:03 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-05-03 12:26:03 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK"}
+2025-05-03 12:26:03 [JavaFX Application Thread] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - class ServicesJsonProxy login() - TRYING
+2025-05-03 12:26:03 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController initialize()
+2025-05-03 12:26:03 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController refresh()
+2025-05-03 12:26:04 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 12:26:04 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - Flights: [Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=1000, location='RO Cluj-Napoca'}, Flight{id=2, destination='RO Cluj-Napoca', departure=0025-09-15T05:00, seats=1, location='RO Bucharest'}]
+2025-05-03 12:26:04 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController ~refresh()
+2025-05-03 13:01:22 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-05-03 13:01:22 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-05-03 13:01:22 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-05-03 13:01:22 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-05-03 13:01:27 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-05-03 13:01:27 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-05-03 13:01:27 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-05-03 13:01:27 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK"}
+2025-05-03 13:01:27 [JavaFX Application Thread] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - class ServicesJsonProxy login() - TRYING
+2025-05-03 13:01:27 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController initialize()
+2025-05-03 13:01:27 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController refresh()
+2025-05-03 13:01:28 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 13:01:28 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - Flights: [Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=1000, location='RO Cluj-Napoca'}, Flight{id=2, destination='RO Cluj-Napoca', departure=0025-09-15T05:00, seats=1, location='RO Bucharest'}]
+2025-05-03 13:01:28 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController ~refresh()
+2025-05-03 13:04:28 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-05-03 13:04:28 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-05-03 13:04:28 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-05-03 13:04:28 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-05-03 13:04:31 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-05-03 13:04:31 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-05-03 13:04:31 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-05-03 13:04:31 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK"}
+2025-05-03 13:04:31 [JavaFX Application Thread] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - class ServicesJsonProxy login() - TRYING
+2025-05-03 13:04:31 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController initialize()
+2025-05-03 13:04:31 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController refresh()
+2025-05-03 13:04:32 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 13:04:32 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - Flights: [Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=1000, location='RO Cluj-Napoca'}, Flight{id=2, destination='RO Cluj-Napoca', departure=0025-09-15T05:00, seats=1, location='RO Bucharest'}]
+2025-05-03 13:04:32 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController ~refresh()
+2025-05-03 13:15:06 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-05-03 13:15:06 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-05-03 13:15:06 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-05-03 13:15:06 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-05-03 13:15:16 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-05-03 13:15:16 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-05-03 13:15:16 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-05-03 13:15:16 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK"}
+2025-05-03 13:15:16 [JavaFX Application Thread] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - class ServicesJsonProxy login() - TRYING
+2025-05-03 13:15:16 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController initialize()
+2025-05-03 13:15:16 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController refresh()
+2025-05-03 13:15:17 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 13:15:17 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - Flights: [Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=1000, location='RO Cluj-Napoca'}, Flight{id=2, destination='RO Cluj-Napoca', departure=0025-09-15T05:00, seats=1, location='RO Bucharest'}]
+2025-05-03 13:15:17 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController ~refresh()
+2025-05-03 13:23:21 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-05-03 13:23:21 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-05-03 13:23:21 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-05-03 13:23:21 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-05-03 13:23:25 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-05-03 13:23:25 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-05-03 13:23:25 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-05-03 13:23:25 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK"}
+2025-05-03 13:23:25 [JavaFX Application Thread] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - class ServicesJsonProxy login() - TRYING
+2025-05-03 13:23:25 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController initialize()
+2025-05-03 13:23:25 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController refresh()
+2025-05-03 13:23:26 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 13:23:26 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - Flights: [Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=1000, location='RO Cluj-Napoca'}, Flight{id=2, destination='RO Cluj-Napoca', departure=0025-09-15T05:00, seats=1, location='RO Bucharest'}]
+2025-05-03 13:23:26 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController ~refresh()
+2025-05-03 13:24:18 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-05-03 13:24:18 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-05-03 13:24:18 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-05-03 13:24:18 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-05-03 13:24:22 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-05-03 13:24:22 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-05-03 13:24:22 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-05-03 13:24:22 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK"}
+2025-05-03 13:24:22 [JavaFX Application Thread] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - class ServicesJsonProxy login() - TRYING
+2025-05-03 13:24:22 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController initialize()
+2025-05-03 13:24:22 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController refresh()
+2025-05-03 13:24:23 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 13:24:23 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - Flights: [Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=1000, location='RO Cluj-Napoca'}, Flight{id=2, destination='RO Cluj-Napoca', departure=0025-09-15T05:00, seats=1, location='RO Bucharest'}]
+2025-05-03 13:24:23 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController ~refresh()
+2025-05-03 13:25:47 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-05-03 13:25:47 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-05-03 13:25:47 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-05-03 13:25:47 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-05-03 13:25:51 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-05-03 13:25:51 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-05-03 13:25:51 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-05-03 13:25:51 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK"}
+2025-05-03 13:25:51 [JavaFX Application Thread] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - class ServicesJsonProxy login() - TRYING
+2025-05-03 13:25:51 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController initialize()
+2025-05-03 13:25:51 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController refresh()
+2025-05-03 13:25:52 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 13:25:52 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - Flights: [Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=1000, location='RO Cluj-Napoca'}, Flight{id=2, destination='RO Cluj-Napoca', departure=0025-09-15T05:00, seats=1, location='RO Bucharest'}]
+2025-05-03 13:25:52 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController ~refresh()
+2025-05-03 13:46:39 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-05-03 13:46:39 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-05-03 13:46:39 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-05-03 13:46:39 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-05-03 13:46:45 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-05-03 13:46:45 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-05-03 13:46:45 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-05-03 13:46:45 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK"}
+2025-05-03 13:46:45 [JavaFX Application Thread] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - class ServicesJsonProxy login() - TRYING
+2025-05-03 13:46:45 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController initialize()
+2025-05-03 13:46:45 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController refresh()
+2025-05-03 13:46:46 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 13:46:46 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - Flights: [Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=1000, location='RO Cluj-Napoca'}, Flight{id=2, destination='RO Cluj-Napoca', departure=0025-09-15T05:00, seats=1, location='RO Bucharest'}]
+2025-05-03 13:46:46 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController ~refresh()
+2025-05-03 13:46:49 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 13:46:51 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 13:46:56 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 13:46:56 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - flight is okay
+2025-05-03 13:46:56 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - client is okay
+2025-05-03 13:46:57 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK"}
+2025-05-03 13:46:57 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - flight id: 1
+2025-05-03 13:46:57 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - flight destination: RO Bucharest
+2025-05-03 13:46:57 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - flight departure: 0025-09-15T10:00
+2025-05-03 13:46:57 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - flight seats: 1000
+2025-05-03 13:46:57 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - flight location: RO Cluj-Napoca
+2025-05-03 13:46:57 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"REFRESH"}
+2025-05-03 13:46:57 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - class ServicesJsonProxy handleUpdate()
+2025-05-03 13:46:57 [Thread-2] DEBUG copilot12354.mpp.clientfx.Main - class UserController ticketBooked()
+2025-05-03 13:46:57 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - class ServicesJsonProxy handleUpdate() - REFRESH OK
+2025-05-03 13:46:58 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK"}
+2025-05-03 13:46:58 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - Ticket booked for client with ID: 1 on flight: 1
+2025-05-03 13:46:58 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController refresh()
+2025-05-03 13:46:59 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 13:46:59 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - Flights: [Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=999, location='RO Cluj-Napoca'}, Flight{id=2, destination='RO Cluj-Napoca', departure=0025-09-15T05:00, seats=1, location='RO Bucharest'}]
+2025-05-03 13:46:59 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController ~refresh()
+2025-05-03 14:22:19 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-05-03 14:22:19 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-05-03 14:22:19 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-05-03 14:22:19 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-05-03 14:22:30 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-05-03 14:22:30 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-05-03 14:22:30 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-05-03 14:22:31 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-05-03 14:25:20 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-05-03 14:25:20 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-05-03 14:25:20 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-05-03 14:25:20 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-05-03 14:25:25 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-05-03 14:25:25 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-05-03 14:25:25 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-05-03 14:25:25 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-05-03 14:25:28 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-05-03 14:25:28 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-05-03 14:25:28 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-05-03 14:25:28 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK"}
+2025-05-03 14:25:28 [JavaFX Application Thread] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - class ServicesJsonProxy login() - TRYING
+2025-05-03 14:25:28 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController initialize()
+2025-05-03 14:25:28 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController refresh()
+2025-05-03 14:25:29 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:25:29 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - Flights: [Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=1000, location='RO Cluj-Napoca'}, Flight{id=2, destination='RO Cluj-Napoca', departure=0025-09-15T05:00, seats=1, location='RO Bucharest'}]
+2025-05-03 14:25:29 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController ~refresh()
+2025-05-03 14:25:33 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-05-03 14:25:33 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 2
+2025-05-03 14:25:33 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-05-03 14:25:33 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK"}
+2025-05-03 14:25:33 [JavaFX Application Thread] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - class ServicesJsonProxy login() - TRYING
+2025-05-03 14:25:33 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController initialize()
+2025-05-03 14:25:33 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController refresh()
+2025-05-03 14:25:34 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:25:34 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - Flights: [Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=1000, location='RO Cluj-Napoca'}, Flight{id=2, destination='RO Cluj-Napoca', departure=0025-09-15T05:00, seats=1, location='RO Bucharest'}]
+2025-05-03 14:25:34 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController ~refresh()
+2025-05-03 14:25:42 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:25:47 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:25:47 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - flight is okay
+2025-05-03 14:25:47 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - client is okay
+2025-05-03 14:25:48 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"REFRESH"}
+2025-05-03 14:25:48 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - class ServicesJsonProxy handleUpdate()
+2025-05-03 14:25:48 [Thread-2] DEBUG copilot12354.mpp.clientfx.Main - class UserController ticketBooked()
+2025-05-03 14:25:48 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"REFRESH"}
+2025-05-03 14:25:48 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - class ServicesJsonProxy handleUpdate()
+2025-05-03 14:25:48 [Thread-2] DEBUG copilot12354.mpp.clientfx.Main - class UserController ticketBooked()
+2025-05-03 14:25:48 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - class ServicesJsonProxy handleUpdate() - REFRESH OK
+2025-05-03 14:25:48 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - class ServicesJsonProxy handleUpdate() - REFRESH OK
+2025-05-03 14:25:48 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK"}
+2025-05-03 14:25:48 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - flight id: 1
+2025-05-03 14:25:48 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - flight destination: RO Bucharest
+2025-05-03 14:25:48 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - flight departure: 0025-09-15T10:00
+2025-05-03 14:25:48 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - flight seats: 1000
+2025-05-03 14:25:48 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - flight location: RO Cluj-Napoca
+2025-05-03 14:25:49 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController refresh()
+2025-05-03 14:25:49 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:25:49 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK"}
+2025-05-03 14:25:49 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - Flights: [Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=999, location='RO Cluj-Napoca'}, Flight{id=2, destination='RO Cluj-Napoca', departure=0025-09-15T05:00, seats=1, location='RO Bucharest'}]
+2025-05-03 14:25:49 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController ~refresh()
+2025-05-03 14:25:49 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - Ticket booked for client with ID: 1 on flight: 1
+2025-05-03 14:25:49 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController refresh()
+2025-05-03 14:25:50 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:25:50 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - Flights: [Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=999, location='RO Cluj-Napoca'}, Flight{id=2, destination='RO Cluj-Napoca', departure=0025-09-15T05:00, seats=1, location='RO Bucharest'}]
+2025-05-03 14:25:50 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController ~refresh()
+2025-05-03 14:26:02 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController bRefresh()
+2025-05-03 14:26:02 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController refresh()
+2025-05-03 14:26:02 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:26:02 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - Flights: [Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=999, location='RO Cluj-Napoca'}, Flight{id=2, destination='RO Cluj-Napoca', departure=0025-09-15T05:00, seats=1, location='RO Bucharest'}]
+2025-05-03 14:26:02 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController ~refresh()
+2025-05-03 14:26:05 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController bRefresh()
+2025-05-03 14:26:05 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController refresh()
+2025-05-03 14:26:05 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:26:05 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - Flights: [Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=999, location='RO Cluj-Napoca'}, Flight{id=2, destination='RO Cluj-Napoca', departure=0025-09-15T05:00, seats=1, location='RO Bucharest'}]
+2025-05-03 14:26:05 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController ~refresh()
+2025-05-03 14:26:07 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:26:09 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController bRefresh()
+2025-05-03 14:26:09 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController refresh()
+2025-05-03 14:26:09 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:26:09 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - Flights: [Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=999, location='RO Cluj-Napoca'}, Flight{id=2, destination='RO Cluj-Napoca', departure=0025-09-15T05:00, seats=1, location='RO Bucharest'}]
+2025-05-03 14:26:09 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController ~refresh()
+2025-05-03 14:26:10 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:26:11 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}

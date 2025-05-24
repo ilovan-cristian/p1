@@ -1,0 +1,245 @@
+2025-04-14 15:41:40 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-04-14 15:41:40 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-04-14 15:41:40 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-04-14 15:41:40 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-04-14 15:41:42 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-04-14 15:41:42 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-04-14 15:41:42 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-04-14 15:41:42 [JavaFX Application Thread] ERROR copilot12354.mpp.jsonprotocol.ServicesJsonProxy - java.net.ConnectException: Connection refused
+2025-04-14 15:41:42 [JavaFX Application Thread] ERROR copilot12354.mpp.jsonprotocol.ServicesJsonProxy - [Ljava.lang.StackTraceElement;@7e25ecc5
+2025-04-14 15:42:00 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-04-14 15:42:00 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-04-14 15:42:00 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-04-14 15:42:00 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-04-14 15:49:09 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-04-14 15:49:09 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-04-14 15:49:09 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-04-14 15:49:09 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-04-14 15:52:00 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-04-14 15:52:00 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-04-14 15:52:00 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-04-14 15:52:00 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-04-14 15:55:23 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-04-14 15:55:23 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-04-14 15:55:23 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-04-14 15:55:23 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-04-14 15:57:15 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-04-14 15:57:15 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-04-14 15:57:15 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-04-14 15:57:15 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-04-14 16:25:20 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-04-14 16:25:20 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-04-14 16:25:20 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-04-14 16:25:20 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-04-14 16:25:26 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-04-14 16:25:26 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-04-14 16:25:26 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-04-14 16:25:26 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK"}
+2025-04-14 16:30:53 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-04-14 16:30:53 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-04-14 16:30:53 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-04-14 16:30:53 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-04-14 16:30:57 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-04-14 16:30:57 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-04-14 16:30:57 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-04-14 16:30:57 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"ERROR","errorMessage":""}
+2025-04-14 16:30:58 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received null
+2025-04-14 16:33:13 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-04-14 16:33:13 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-04-14 16:33:13 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-04-14 16:33:13 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-04-14 16:33:18 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-04-14 16:33:18 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-04-14 16:33:18 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-04-14 16:33:18 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-04-14 16:33:30 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-04-14 16:33:30 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-04-14 16:33:30 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-04-14 16:33:30 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-04-14 16:33:32 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-04-14 16:33:32 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-04-14 16:33:32 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-04-14 16:34:28 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-04-14 16:34:28 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-04-14 16:34:28 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-04-14 16:34:28 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-04-14 16:34:33 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-04-14 16:34:33 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-04-14 16:34:33 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-04-14 16:40:58 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-04-14 16:40:58 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-04-14 16:40:58 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-04-14 16:40:58 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-04-14 16:41:00 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-04-14 16:41:00 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-04-14 16:41:00 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-04-14 16:49:30 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-04-14 16:49:30 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-04-14 16:49:30 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-04-14 16:49:30 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-04-14 16:49:32 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-04-14 16:49:32 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-04-14 16:49:32 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-04-14 16:49:32 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK"}
+2025-04-14 16:49:38 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-04-14 16:49:38 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-04-14 16:49:38 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: ss
+2025-04-14 16:49:38 [Thread-3] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"ERROR","errorMessage":"Incorrect ID or password"}
+2025-04-14 16:49:39 [Thread-3] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received null
+2025-04-14 16:49:43 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received null
+2025-04-14 16:54:15 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-04-14 16:54:15 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-04-14 16:54:15 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-04-14 16:54:15 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-04-14 16:54:17 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-04-14 16:54:17 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-04-14 16:54:17 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-04-14 17:20:33 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-04-14 17:20:33 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-04-14 17:20:33 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-04-14 17:20:33 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-04-14 17:20:44 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-04-14 17:20:44 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-04-14 17:20:44 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-04-14 17:21:25 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-04-14 17:21:25 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-04-14 17:21:25 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-04-14 17:21:25 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-04-14 17:21:26 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-04-14 17:21:26 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-04-14 17:21:26 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-04-14 17:21:26 [JavaFX Application Thread] ERROR copilot12354.mpp.jsonprotocol.ServicesJsonProxy - java.net.ConnectException: Connection refused
+2025-04-14 17:21:26 [JavaFX Application Thread] ERROR copilot12354.mpp.jsonprotocol.ServicesJsonProxy - [Ljava.lang.StackTraceElement;@1342fa92
+2025-04-14 17:21:29 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-04-14 17:21:29 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-04-14 17:21:29 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-04-14 17:21:29 [JavaFX Application Thread] ERROR copilot12354.mpp.jsonprotocol.ServicesJsonProxy - java.net.ConnectException: Connection refused
+2025-04-14 17:21:29 [JavaFX Application Thread] ERROR copilot12354.mpp.jsonprotocol.ServicesJsonProxy - [Ljava.lang.StackTraceElement;@63b789af
+2025-04-14 17:22:37 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-04-14 17:22:37 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-04-14 17:22:37 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-04-14 17:22:37 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-04-14 17:22:38 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-04-14 17:22:38 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-04-14 17:22:38 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-04-14 17:22:38 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK"}
+2025-04-14 17:22:43 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-04-14 17:22:43 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-04-14 17:22:43 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: 2
+2025-04-14 17:22:43 [Thread-3] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"ERROR","errorMessage":"Incorrect ID or password"}
+2025-04-14 17:22:44 [Thread-3] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received null
+2025-04-14 17:23:06 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-04-14 17:23:06 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-04-14 17:23:06 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-04-14 17:23:06 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-04-14 17:23:08 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-04-14 17:23:08 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-04-14 17:23:08 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-04-14 17:23:08 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK"}
+2025-04-14 17:23:58 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-04-14 17:23:58 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-04-14 17:23:58 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-04-14 17:23:58 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-04-14 17:23:59 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-04-14 17:23:59 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-04-14 17:23:59 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-04-14 17:23:59 [JavaFX Application Thread] ERROR copilot12354.mpp.jsonprotocol.ServicesJsonProxy - java.net.ConnectException: Connection refused
+2025-04-14 17:23:59 [JavaFX Application Thread] ERROR copilot12354.mpp.jsonprotocol.ServicesJsonProxy - [Ljava.lang.StackTraceElement;@7832adb7
+2025-04-14 17:45:35 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-04-14 17:45:35 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-04-14 17:45:35 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-04-14 17:45:35 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-04-14 17:45:36 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-04-14 17:45:36 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-04-14 17:45:36 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-04-14 17:45:36 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK"}
+2025-04-14 17:46:27 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-04-14 17:46:27 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-04-14 17:46:27 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-04-14 17:46:27 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-04-14 17:46:32 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-04-14 17:46:32 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-04-14 17:46:32 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-04-14 17:46:32 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-04-14 17:46:36 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-04-14 17:46:36 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-04-14 17:46:36 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-04-14 17:46:37 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK"}
+2025-04-14 17:46:38 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - bRefresh()
+2025-04-14 17:46:39 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - bRefresh()
+2025-04-14 17:46:39 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - bRefresh()
+2025-04-14 17:46:40 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - bRefresh()
+2025-04-14 17:46:40 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - bRefresh()
+2025-04-14 17:46:40 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - bRefresh()
+2025-04-14 17:46:40 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - bRefresh()
+2025-04-14 17:46:40 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - bRefresh()
+2025-04-14 17:46:40 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - bRefresh()
+2025-04-14 17:46:41 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - bRefresh()
+2025-04-14 17:48:47 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-04-14 17:48:47 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-04-14 17:48:47 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-04-14 17:48:47 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-04-14 17:48:49 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-04-14 17:48:49 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-04-14 17:48:49 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-04-14 17:48:49 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK"}
+2025-04-14 17:48:49 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController initialize()
+2025-04-14 17:48:53 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController bRefresh()
+2025-04-14 17:48:54 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController bRefresh()
+2025-04-14 17:48:56 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController bRefresh()
+2025-04-14 17:48:57 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController bRefresh()
+2025-04-14 17:48:57 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController bRefresh()
+2025-04-14 17:48:57 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController bRefresh()
+2025-04-14 17:51:06 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-04-14 17:51:06 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-04-14 17:51:06 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-04-14 17:51:06 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-04-14 17:51:08 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-04-14 17:51:08 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-04-14 17:51:08 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: P
+2025-04-14 17:51:08 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"ERROR","errorMessage":"Incorrect ID or password"}
+2025-04-14 17:51:09 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received null
+2025-04-14 17:51:13 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-04-14 17:51:13 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-04-14 17:51:13 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: P
+2025-04-14 17:51:13 [Thread-3] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"ERROR","errorMessage":"Incorrect ID or password"}
+2025-04-14 17:51:14 [Thread-3] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received null
+2025-04-14 17:51:48 [main] DEBUG copilot12354.mpp.clientfx.Main - main(String[] args)
+2025-04-14 17:51:48 [main] INFO  copilot12354.mpp.clientfx.Main - Client properties set {server.host=localhost, server.port=55555} 
+2025-04-14 17:51:48 [main] INFO  copilot12354.mpp.clientfx.Main - Using server IP localhost
+2025-04-14 17:51:48 [main] INFO  copilot12354.mpp.clientfx.Main - Using server port 55555
+2025-04-14 17:51:58 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - TRYING TO AUTHENTICATE / LOG IN:
+
+2025-04-14 17:51:58 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - ID: 1
+2025-04-14 17:51:58 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.AuthenticateController - PASSWORD: p
+2025-04-14 17:51:58 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ServicesJsonProxy - response received {"type":"OK"}
+2025-04-14 17:51:58 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController initialize()
+2025-04-14 17:51:58 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController refresh()
+2025-04-14 17:51:58 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - Flights: []
+2025-04-14 17:52:00 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController bRefresh()
+2025-04-14 17:52:00 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController refresh()
+2025-04-14 17:52:00 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - Flights: []
+2025-04-14 17:52:01 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController bRefresh()
+2025-04-14 17:52:01 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - class UserController refresh()
+2025-04-14 17:52:01 [JavaFX Application Thread] DEBUG copilot12354.mpp.clientfx.Main - Flights: []

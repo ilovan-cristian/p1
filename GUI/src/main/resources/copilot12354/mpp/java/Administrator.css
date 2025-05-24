@@ -1,0 +1,10 @@
+.root {
+    -fx-background-image: url("img/bUser.png");
+    -fx-background-size: cover;
+}
+
+.auth-label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+}

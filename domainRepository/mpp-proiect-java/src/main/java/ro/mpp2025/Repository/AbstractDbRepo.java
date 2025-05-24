@@ -1,0 +1,106 @@
+package ro.mpp2025.Repository;
+
+import ro.mpp2025.Domain.Entity;
+import org.apache.logging.log4j.Logger;
+
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.Optional;
+import java.util.stream.StreamSupport;
+
+public abstract class AbstractDbRepo<Id, T extends Entity<Id>> implements IRepo<Id, T> {
+    private final ConnectionManager connectionManager;
+    private final Logger logger;
+
+    public AbstractDbRepo(ConnectionManager connectionManager, Logger logger) {
+        this.connectionManager = connectionManager;
+        this.logger = logger;
+
+        logger.trace("Constructed repository");
+    }
+
+    @FunctionalInterface
+    protected interface ResultSetMapper<E> {
+        E apply(ResultSet resultSet) throws SQLException;
+    }
+
+    @FunctionalInterface
+    protected interface StatementGetter {
+        PreparedStatement get(Connection connection) throws SQLException;
+    }
+
+    protected abstract PreparedStatement getDeleteStatement(Connection connection, Id id) throws SQLException;
+    protected abstract PreparedStatement getFindAllStatement(Connection connection) throws SQLException;
+    protected abstract PreparedStatement getFindOneStatement(Connection connection, Id id) throws SQLException;
+    protected abstract PreparedStatement getSaveStatement(Connection connection, T entity) throws SQLException;
+    protected abstract PreparedStatement getUpdateStatement(Connection connection, T entity) throws SQLException;
+    protected abstract T transformDefaultResultSet(ResultSet resultSet) throws SQLException;
+
+    protected <E> Iterable<E> executeQuery(StatementGetter statementGetter, ResultSetMapper<E> resultSetMapper) {
+        var result = new ArrayList<E>();
+        try {
+            var connection = connectionManager.getConnection();
+            try (var statement = statementGetter.get(connection);
+                 var rs = statement.executeQuery()) {
+                while (rs.next())
+                    result.add(resultSetMapper.apply(rs));
+            } catch (SQLException e) {
+                throw e;
+            }
+            return result;
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    protected Iterable<T> executeQuery(StatementGetter statementGetter) {
+        return executeQuery(statementGetter, this::transformDefaultResultSet);
+    }
+
+    protected int executeUpdate(StatementGetter statementGetter) {
+        try {
+            var connection = connectionManager.getConnection();
+            try (var statement = statementGetter.get(connection)) {
+                return statement.executeUpdate();
+            } catch (SQLException e) {
+                throw e;
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    @Override
+    public Iterable<T> findAll() {
+        logger.trace("Caut toate obiectele");
+        return executeQuery(this::getFindAllStatement);
+    }
+
+    @Override
+    public Optional<T> findOne(Id id) {
+        logger.trace("Caut entitatea cu id-ul {}", id);
+        var result = executeQuery(con -> getFindOneStatement(con, id));
+        return StreamSupport.stream(result.spliterator(), false).findFirst();
+    }
+
+    @Override
+    public void save(T entity) {
+        logger.trace("Salvez entitatea {}", entity);
+        var result = executeUpdate(con -> getSaveStatement(con, entity));
+        logger.trace("Save result: {}", result);
+    }
+
+    @Override
+    public void delete(Id id) {
+        logger.trace("Șterg entitatea cu id-ul: {}", id);
+        executeUpdate(con -> getDeleteStatement(con, id));
+        logger.trace("Delete result: {}", id);
+    }
+
+    @Override
+    public void update(T entity) {
+        logger.trace("Actualizez entitatea {}", entity);
+        var result = executeUpdate(con -> getUpdateStatement(con, entity));
+        logger.trace("Update result: {}", result);
+    }
+}

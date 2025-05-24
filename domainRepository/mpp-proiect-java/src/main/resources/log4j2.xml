@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration xmlns="https://logging.apache.org/xml/ns"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="
+                   https://logging.apache.org/xml/ns
+                   https://logging.apache.org/xml/ns/log4j-config-2.xsd">
+    <Appenders>
+        <Console name="CONSOLE">
+            <PatternLayout pattern="%date [%thread] %-5level %logger - %message%n"/>
+        </Console>
+        <File name="DEBUG_LOG" fileName="logs/debug.log">
+            <PatternLayout pattern="%date [%thread] %-5level %logger - %message%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="ALL">
+            <AppenderRef ref="CONSOLE" level="ALL"/>
+            <AppenderRef ref="DEBUG_LOG"/>
+        </Root>
+    </Loggers>
+</Configuration>

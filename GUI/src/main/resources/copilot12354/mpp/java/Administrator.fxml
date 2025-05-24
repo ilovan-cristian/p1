@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+
+<VBox alignment="CENTER" spacing="10.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="copilot12354.mpp.java.GUI.AdministratorController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <HBox spacing="10.0" alignment="CENTER">
+
+        <VBox spacing="10.0" alignment="CENTER">
+
+            <Label fx:id="welcomeLabel" styleClass="auth-label"/>
+
+            <Label fx:id="labelEmployee" styleClass="auth-label"/>
+
+            <HBox spacing="10.0" alignment="CENTER">
+                <Region prefWidth="80"/> <!-- Spacer to adjust vertical alignment -->
+                <Label fx:id="labelId" styleClass="auth-label"/>
+                <TextField fx:id="textFieldID" promptText="ID" prefWidth="250.0"/>
+            </HBox>
+
+            <HBox spacing="10.0" alignment="CENTER">
+                <Region prefWidth="55"/> <!-- Spacer to adjust vertical alignment -->
+                <Label fx:id="labelName" styleClass="auth-label"/>
+                <TextField fx:id="textFieldName" promptText="NAME" prefWidth="250.0"/>
+            </HBox>
+
+            <HBox spacing="10.0" alignment="CENTER">
+                <Region prefWidth="15"/> <!-- Spacer to adjust vertical alignment -->
+                <Label fx:id="labelPassword" styleClass="auth-label"/>
+                <TextField fx:id="textFieldPassword" promptText="PASSWORD" prefWidth="250.0"/>
+            </HBox>
+
+            <HBox spacing="10.0" alignment="CENTER">
+                <Button text="SEARCH" onAction="#bSearch"/>
+                <Button text="ADD" onAction="#bAdd"/>
+                <Button text="ERASE" onAction="#bErase"/>
+                <Button text="MODIFY" onAction="#bModify"/>
+                <Button text="VIEW ALL" onAction="#bViewAll"/>
+            </HBox>
+
+        </VBox>
+
+        <VBox spacing="10.0" alignment="CENTER">
+            <TableView fx:id="tableViewEmployees" prefWidth="500.0" prefHeight="500.0">
+                <columns>
+                    <TableColumn text="ID" fx:id="columnID" prefWidth="100.0">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="id"/>
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn text="Name" fx:id="columnName" prefWidth="200.0">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="name"/>
+                        </cellValueFactory>
+                    </TableColumn>
+                    <TableColumn text="Password" fx:id="columnPassword" prefWidth="200.0">
+                        <cellValueFactory>
+                            <PropertyValueFactory property="password"/>
+                        </cellValueFactory>
+                    </TableColumn>
+                </columns>
+            </TableView>
+        </VBox>
+
+    </HBox>
+
+</VBox>

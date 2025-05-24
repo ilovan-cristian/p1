@@ -1,0 +1,967 @@
+2025-05-03 11:59:10 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 11:59:11 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 11:59:11 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 11:59:11 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 11:59:11 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 11:59:11 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 11:59:11 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 11:59:11 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 11:59:11 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 11:59:23 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 11:59:23 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 11:59:23 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[1, , p]
+2025-05-03 11:59:23 [Thread-0] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 11:59:23 [Thread-0] DEBUG copilot12354.mpp.ServicesImplementation - Employee 1 logged in.
+2025-05-03 11:59:23 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 11:59:24 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 11:59:24 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 12:01:43 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 12:01:43 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 12:01:43 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 12:01:43 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 12:01:43 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 12:01:43 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 12:01:43 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 12:01:43 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 12:01:43 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 12:01:47 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 12:01:47 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 12:04:46 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 12:04:46 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 12:04:46 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 12:04:46 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 12:04:46 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 12:04:46 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 12:04:46 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 12:04:46 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 12:04:46 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 12:04:51 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 12:04:51 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 12:11:54 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 12:11:54 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 12:11:54 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 12:11:54 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 12:11:54 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 12:11:54 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 12:11:54 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 12:11:54 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 12:11:54 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 12:11:57 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 12:11:57 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 12:12:15 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 12:12:16 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 12:12:16 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 12:12:16 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 12:12:16 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 12:12:16 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 12:12:16 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 12:12:16 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 12:12:16 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 12:12:27 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 12:12:27 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 12:12:27 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[1, , p]
+2025-05-03 12:12:27 [Thread-0] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 12:12:27 [Thread-0] DEBUG copilot12354.mpp.ServicesImplementation - Employee 1 logged in.
+2025-05-03 12:12:27 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 12:12:28 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 12:12:28 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 12:12:41 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 12:12:41 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 12:12:41 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 12:12:41 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 12:12:41 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 12:12:41 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 12:12:41 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 12:12:41 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 12:12:41 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 12:12:48 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 12:12:48 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 12:13:06 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 12:13:06 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 12:13:06 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 12:13:06 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 12:13:06 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 12:13:06 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 12:13:06 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 12:13:06 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 12:13:06 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 12:13:14 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 12:13:14 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 12:13:14 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[1, , p]
+2025-05-03 12:13:14 [Thread-0] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 12:13:14 [Thread-0] DEBUG copilot12354.mpp.ServicesImplementation - Employee 1 logged in.
+2025-05-03 12:13:14 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 12:13:15 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 12:13:15 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 12:15:29 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 12:15:29 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 12:15:29 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 12:15:29 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 12:15:29 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 12:15:29 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 12:15:29 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 12:15:29 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 12:15:29 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 12:15:39 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 12:15:39 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 12:15:39 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[1, , p]
+2025-05-03 12:15:39 [Thread-0] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 12:15:39 [Thread-0] DEBUG copilot12354.mpp.ServicesImplementation - Employee 1 logged in.
+2025-05-03 12:15:39 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 12:15:40 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 12:15:40 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 12:16:24 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 12:16:24 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 12:16:24 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 12:16:24 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 12:16:24 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 12:16:24 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 12:16:24 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 12:16:24 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 12:16:24 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 12:16:35 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 12:16:35 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 12:20:36 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 12:20:36 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 12:20:36 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 12:20:36 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 12:20:36 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 12:20:36 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 12:20:36 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 12:20:36 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 12:20:36 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 12:20:40 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 12:20:40 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 12:22:36 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 12:22:36 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 12:22:36 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 12:22:36 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 12:22:36 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 12:22:36 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 12:22:36 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 12:22:36 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 12:22:36 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 12:22:39 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 12:22:39 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 12:25:51 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 12:25:51 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 12:25:51 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 12:25:51 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 12:25:51 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 12:25:51 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 12:25:51 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 12:25:51 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 12:25:51 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 12:26:03 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 12:26:03 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 12:26:03 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[1, , p]
+2025-05-03 12:26:03 [Thread-0] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 12:26:03 [Thread-0] DEBUG copilot12354.mpp.ServicesImplementation - Employee 1 logged in.
+2025-05-03 12:26:03 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 12:26:04 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 12:26:04 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 12:26:38 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 12:26:38 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 12:26:38 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 12:26:38 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 12:26:38 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 12:26:38 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 12:26:38 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 12:26:38 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 12:26:38 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 12:26:41 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 12:26:41 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 13:01:18 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 13:01:18 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 13:01:18 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 13:01:18 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 13:01:18 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 13:01:18 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 13:01:18 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 13:01:18 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 13:01:18 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 13:01:27 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 13:01:27 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 13:01:27 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[1, , p]
+2025-05-03 13:01:27 [Thread-0] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 13:01:27 [Thread-0] DEBUG copilot12354.mpp.ServicesImplementation - Employee 1 logged in.
+2025-05-03 13:01:27 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 13:01:28 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 13:01:28 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 13:03:32 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 13:03:32 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 13:03:32 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 13:03:32 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 13:03:32 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 13:03:32 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 13:03:32 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 13:03:32 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 13:03:32 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 13:03:41 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 13:03:42 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 13:04:20 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 13:04:20 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 13:04:20 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 13:04:20 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 13:04:20 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 13:04:20 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 13:04:20 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 13:04:20 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 13:04:20 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 13:04:31 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 13:04:31 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 13:04:31 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[1, , p]
+2025-05-03 13:04:31 [Thread-0] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 13:04:31 [Thread-0] DEBUG copilot12354.mpp.ServicesImplementation - Employee 1 logged in.
+2025-05-03 13:04:31 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 13:04:32 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 13:04:32 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 13:12:24 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 13:12:24 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 13:12:24 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 13:12:24 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 13:12:24 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 13:12:24 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 13:12:24 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 13:12:24 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 13:12:24 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 13:12:30 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 13:12:30 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 13:14:55 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 13:14:55 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 13:14:55 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 13:14:55 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 13:14:55 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 13:14:55 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 13:14:55 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 13:14:55 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 13:14:55 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 13:15:16 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 13:15:16 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 13:15:16 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[1, , p]
+2025-05-03 13:15:16 [Thread-0] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 13:15:16 [Thread-0] DEBUG copilot12354.mpp.ServicesImplementation - Employee 1 logged in.
+2025-05-03 13:15:16 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 13:15:17 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 13:15:17 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 13:22:08 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 13:22:08 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 13:22:08 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 13:22:08 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 13:22:08 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 13:22:08 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 13:22:08 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 13:22:08 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 13:22:08 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 13:22:17 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 13:22:17 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 13:23:14 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 13:23:14 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 13:23:14 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 13:23:14 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 13:23:14 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 13:23:14 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 13:23:14 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 13:23:14 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 13:23:14 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 13:23:25 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 13:23:25 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 13:23:25 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[1, , p]
+2025-05-03 13:23:25 [Thread-0] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 13:23:25 [Thread-0] DEBUG copilot12354.mpp.ServicesImplementation - Employee 1 logged in.
+2025-05-03 13:23:25 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 13:23:26 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 13:23:26 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 13:24:18 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 13:24:18 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 13:24:18 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 13:24:18 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 13:24:18 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 13:24:18 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 13:24:18 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 13:24:18 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 13:24:18 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 13:24:22 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 13:24:22 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 13:24:22 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - request Request{type=LOGIN, employee=EmployeeDTO[1, , p]}
+2025-05-03 13:24:22 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[1, , p]
+2025-05-03 13:24:22 [Thread-0] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 13:24:22 [Thread-0] DEBUG copilot12354.mpp.ServicesImplementation - Employee 1 logged in.
+2025-05-03 13:24:22 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 13:24:23 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 13:24:23 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 13:24:23 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 13:25:41 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 13:25:41 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 13:25:41 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 13:25:41 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 13:25:41 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 13:25:41 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 13:25:41 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 13:25:41 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 13:25:41 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 13:25:51 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 13:25:51 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 13:25:51 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"LOGIN","dtoEmployee":{"id":1,"name":"","password":"p"}}
+2025-05-03 13:25:51 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=LOGIN, employee=EmployeeDTO[1, , p]}
+2025-05-03 13:25:51 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[1, , p]
+2025-05-03 13:25:51 [Thread-0] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 13:25:51 [Thread-0] DEBUG copilot12354.mpp.ServicesImplementation - Employee 1 logged in.
+2025-05-03 13:25:51 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 13:25:52 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS"}
+2025-05-03 13:25:52 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 13:25:52 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 13:25:52 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 13:32:09 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 13:32:10 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 13:32:10 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 13:32:10 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 13:32:10 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 13:32:10 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 13:32:10 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 13:32:10 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 13:32:10 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 13:32:12 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 13:32:12 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 13:32:12 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"LOGIN","dtoEmployee":{"id":1,"name":"","password":"p"},"dtoTicket":null,"dtoFlight":null}
+2025-05-03 13:32:12 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=LOGIN, employee=EmployeeDTO[1, , p]}
+2025-05-03 13:32:12 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[1, , p]
+2025-05-03 13:32:12 [Thread-0] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 13:32:12 [Thread-0] DEBUG copilot12354.mpp.ServicesImplementation - Employee 1 logged in.
+2025-05-03 13:32:12 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 13:32:13 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 13:32:13 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 13:32:13 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 13:32:13 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 13:33:07 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 13:33:07 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 13:33:07 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 13:33:07 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 13:33:07 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 13:33:07 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 13:33:07 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 13:33:07 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 13:33:07 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 13:33:13 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 13:33:13 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 13:33:13 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"LOGIN","dtoEmployee":{"id":1,"name":"","password":"p"},"dtoTicket":null,"dtoFlight":null}
+2025-05-03 13:33:13 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=LOGIN, employee=EmployeeDTO[1, , p]}
+2025-05-03 13:33:13 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[1, , p]
+2025-05-03 13:33:13 [Thread-0] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 13:33:13 [Thread-0] DEBUG copilot12354.mpp.ServicesImplementation - Employee 1 logged in.
+2025-05-03 13:33:13 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 13:33:14 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 13:33:14 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 13:33:14 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 13:33:14 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":500,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 13:46:39 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 13:46:40 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 13:46:40 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 13:46:40 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 13:46:40 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 13:46:40 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 13:46:40 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 13:46:40 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 13:46:40 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 13:46:45 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 13:46:45 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 13:46:45 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"LOGIN","dtoEmployee":{"id":1,"name":"","password":"p"}}
+2025-05-03 13:46:45 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=LOGIN, employee=EmployeeDTO[1, , p]}
+2025-05-03 13:46:45 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[1, , p]
+2025-05-03 13:46:45 [Thread-0] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 13:46:45 [Thread-0] DEBUG copilot12354.mpp.ServicesImplementation - Employee 1 logged in.
+2025-05-03 13:46:45 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 13:46:46 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS"}
+2025-05-03 13:46:46 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 13:46:46 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 13:46:46 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 13:46:49 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS"}
+2025-05-03 13:46:49 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 13:46:49 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 13:46:49 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 13:46:51 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS"}
+2025-05-03 13:46:51 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 13:46:51 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 13:46:51 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 13:46:56 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS"}
+2025-05-03 13:46:56 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 13:46:56 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 13:46:56 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 13:46:57 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"ADDTICKET","dtoTicket":{"clientId":1,"flightId":1}}
+2025-05-03 13:46:57 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=ADDTICKET, employee=null}
+2025-05-03 13:46:57 [Thread-0] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 13:46:57 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 13:46:57 [Thread-0] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Salvez entitatea Ticket{id=0, flight=Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=1000, location='RO Cluj-Napoca'}, client=Client{id=1, name='Client Fidel'}}
+2025-05-03 13:46:57 [Thread-0] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Save result: 1
+2025-05-03 13:46:57 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 13:46:57 [pool-2-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked()
+2025-05-03 13:46:57 [pool-2-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"REFRESH"}
+2025-05-03 13:46:57 [pool-2-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked() response sent
+2025-05-03 13:46:57 [pool-2-thread-1] DEBUG copilot12354.mpp.ServicesImplementation - Notifying client 1 about ticket booking.
+2025-05-03 13:46:58 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"UPDATEFLIGHT","dtoFlight":{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"}}
+2025-05-03 13:46:58 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=UPDATEFLIGHT, employee=null}
+2025-05-03 13:46:58 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 13:46:58 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Actualizez entitatea Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=999, location='RO Cluj-Napoca'}
+2025-05-03 13:46:58 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Update result: 1
+2025-05-03 13:46:58 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 13:46:59 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS"}
+2025-05-03 13:46:59 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 13:46:59 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 13:46:59 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 13:52:03 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 13:52:04 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 13:52:04 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 13:52:04 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 13:52:04 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 13:52:04 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 13:52:04 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 13:52:04 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 13:52:04 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 13:52:11 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 13:52:11 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 13:52:12 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"LOGIN","dtoEmployee":{"id":1,"name":"","password":"p"},"dtoTicket":null,"dtoFlight":null}
+2025-05-03 13:52:12 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=LOGIN, employee=EmployeeDTO[1, , p]}
+2025-05-03 13:52:12 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[1, , p]
+2025-05-03 13:52:12 [Thread-0] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 13:52:12 [Thread-0] DEBUG copilot12354.mpp.ServicesImplementation - Employee 1 logged in.
+2025-05-03 13:52:12 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 13:52:13 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 13:52:13 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 13:52:13 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 13:52:13 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 13:52:20 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"ADDTICKET","dtoEmployee":null,"dtoTicket":{"clientId":1,"flightId":1},"dtoFlight":null}
+2025-05-03 13:52:20 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=ADDTICKET, employee=null}
+2025-05-03 13:52:20 [Thread-0] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 13:52:20 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 13:52:20 [Thread-0] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Salvez entitatea Ticket{id=0, flight=Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=1000, location='RO Cluj-Napoca'}, client=Client{id=1, name='Client Fidel'}}
+2025-05-03 13:52:20 [Thread-0] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Save result: 1
+2025-05-03 13:52:20 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 13:52:20 [pool-2-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked()
+2025-05-03 13:52:20 [pool-2-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"REFRESH"}
+2025-05-03 13:52:20 [pool-2-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked() response sent
+2025-05-03 13:52:20 [pool-2-thread-1] DEBUG copilot12354.mpp.ServicesImplementation - Notifying client 1 about ticket booking.
+2025-05-03 13:52:21 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"UPDATEFLIGHT","dtoEmployee":null,"dtoTicket":null,"dtoFlight":{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00:00","seats":999,"location":"RO Cluj-Napoca"}}
+2025-05-03 13:52:21 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=UPDATEFLIGHT, employee=null}
+2025-05-03 13:52:21 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 13:52:21 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Actualizez entitatea Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=999, location='RO Cluj-Napoca'}
+2025-05-03 13:52:21 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Update result: 1
+2025-05-03 13:52:21 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 13:52:22 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 13:52:22 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 13:52:22 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 13:52:22 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:05:38 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 14:05:38 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 14:05:38 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 14:05:38 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 14:05:38 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 14:05:38 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 14:05:38 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 14:05:38 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 14:05:38 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 14:05:48 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 14:05:48 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 14:05:48 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"LOGIN","dtoEmployee":{"id":1,"name":"","password":"p"},"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:05:48 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=LOGIN, employee=EmployeeDTO[1, , p]}
+2025-05-03 14:05:48 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[1, , p]
+2025-05-03 14:05:48 [Thread-0] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:05:48 [Thread-0] DEBUG copilot12354.mpp.ServicesImplementation - Employee 1 logged in.
+2025-05-03 14:05:48 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 14:05:49 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:05:49 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:05:49 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:05:49 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:05:52 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 14:05:52 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 14:05:52 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"LOGIN","dtoEmployee":{"id":2,"name":"","password":"["},"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:05:52 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=LOGIN, employee=EmployeeDTO[2, , []}
+2025-05-03 14:05:52 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[2, , []
+2025-05-03 14:05:52 [Thread-1] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 2
+2025-05-03 14:05:52 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"ERROR","errorMessage":"Incorrect ID or password"}
+2025-05-03 14:05:57 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 14:05:57 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 14:05:57 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"LOGIN","dtoEmployee":{"id":2,"name":"","password":"p"},"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:05:57 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=LOGIN, employee=EmployeeDTO[2, , p]}
+2025-05-03 14:05:57 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[2, , p]
+2025-05-03 14:05:57 [Thread-2] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 2
+2025-05-03 14:05:57 [Thread-2] DEBUG copilot12354.mpp.ServicesImplementation - Employee 2 logged in.
+2025-05-03 14:05:57 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 14:05:58 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:05:58 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:05:58 [Thread-2] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:05:58 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:06:06 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"ADDTICKET","dtoEmployee":null,"dtoTicket":{"clientId":1,"flightId":1},"dtoFlight":null}
+2025-05-03 14:06:06 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=ADDTICKET, employee=null}
+2025-05-03 14:06:06 [Thread-0] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:06:06 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:06:06 [Thread-0] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Salvez entitatea Ticket{id=0, flight=Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=1000, location='RO Cluj-Napoca'}, client=Client{id=1, name='Client Fidel'}}
+2025-05-03 14:06:06 [Thread-0] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Save result: 1
+2025-05-03 14:06:06 [pool-2-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked()
+2025-05-03 14:06:06 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 14:06:06 [pool-2-thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked()
+2025-05-03 14:06:06 [pool-2-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"REFRESH"}
+2025-05-03 14:06:06 [pool-2-thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"REFRESH"}
+2025-05-03 14:06:06 [pool-2-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked() response sent
+2025-05-03 14:06:06 [pool-2-thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked() response sent
+2025-05-03 14:06:06 [pool-2-thread-2] DEBUG copilot12354.mpp.ServicesImplementation - Notifying client 2 about ticket booking.
+2025-05-03 14:06:06 [pool-2-thread-1] DEBUG copilot12354.mpp.ServicesImplementation - Notifying client 1 about ticket booking.
+2025-05-03 14:06:06 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:06:06 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:06:06 [Thread-2] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:06:06 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:06:07 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"UPDATEFLIGHT","dtoEmployee":null,"dtoTicket":null,"dtoFlight":{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00:00","seats":999,"location":"RO Cluj-Napoca"}}
+2025-05-03 14:06:07 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=UPDATEFLIGHT, employee=null}
+2025-05-03 14:06:07 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:06:07 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Actualizez entitatea Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=999, location='RO Cluj-Napoca'}
+2025-05-03 14:06:07 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Update result: 1
+2025-05-03 14:06:07 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 14:06:08 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:06:08 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:06:08 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:06:08 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:06:49 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:06:49 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:06:49 [Thread-2] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:06:49 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:06:53 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine null
+2025-05-03 14:06:53 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request null
+2025-05-03 14:06:53 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine null
+2025-05-03 14:06:53 [Thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request null
+2025-05-03 14:08:04 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 14:08:04 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 14:08:04 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 14:08:04 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 14:08:04 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 14:08:04 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 14:08:04 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 14:08:04 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 14:08:04 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 14:08:18 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 14:08:18 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 14:08:18 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"LOGIN","dtoEmployee":{"id":1,"name":"","password":"p"},"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:08:18 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=LOGIN, employee=EmployeeDTO[1, , p]}
+2025-05-03 14:08:18 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[1, , p]
+2025-05-03 14:08:18 [Thread-0] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:08:18 [Thread-0] DEBUG copilot12354.mpp.ServicesImplementation - Employee 1 logged in.
+2025-05-03 14:08:18 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 14:08:19 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:08:19 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:08:19 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:08:19 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:08:23 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 14:08:23 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 14:08:23 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"LOGIN","dtoEmployee":{"id":2,"name":"","password":"p"},"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:08:23 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=LOGIN, employee=EmployeeDTO[2, , p]}
+2025-05-03 14:08:23 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[2, , p]
+2025-05-03 14:08:23 [Thread-1] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 2
+2025-05-03 14:08:23 [Thread-1] DEBUG copilot12354.mpp.ServicesImplementation - Employee 2 logged in.
+2025-05-03 14:08:23 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 14:08:24 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:08:24 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:08:24 [Thread-1] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:08:24 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:08:33 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"ADDTICKET","dtoEmployee":null,"dtoTicket":{"clientId":1,"flightId":1},"dtoFlight":null}
+2025-05-03 14:08:33 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=ADDTICKET, employee=null}
+2025-05-03 14:08:33 [Thread-0] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:08:33 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:08:33 [Thread-0] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Salvez entitatea Ticket{id=0, flight=Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=1000, location='RO Cluj-Napoca'}, client=Client{id=1, name='Client Fidel'}}
+2025-05-03 14:08:33 [Thread-0] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Save result: 1
+2025-05-03 14:08:33 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 14:08:33 [pool-2-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked()
+2025-05-03 14:08:33 [pool-2-thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked()
+2025-05-03 14:08:34 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"UPDATEFLIGHT","dtoEmployee":null,"dtoTicket":null,"dtoFlight":{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00:00","seats":999,"location":"RO Cluj-Napoca"}}
+2025-05-03 14:08:34 [pool-2-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"REFRESH"}
+2025-05-03 14:08:34 [pool-2-thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"REFRESH"}
+2025-05-03 14:08:34 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=UPDATEFLIGHT, employee=null}
+2025-05-03 14:08:34 [pool-2-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked() response sent
+2025-05-03 14:08:34 [pool-2-thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked() response sent
+2025-05-03 14:08:34 [pool-2-thread-2] DEBUG copilot12354.mpp.ServicesImplementation - Notifying client 2 about ticket booking.
+2025-05-03 14:08:34 [pool-2-thread-1] DEBUG copilot12354.mpp.ServicesImplementation - Notifying client 1 about ticket booking.
+2025-05-03 14:08:34 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:08:34 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:08:34 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:08:34 [Thread-1] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:08:34 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Actualizez entitatea Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=999, location='RO Cluj-Napoca'}
+2025-05-03 14:08:34 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:08:34 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Update result: 1
+2025-05-03 14:08:34 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 14:08:35 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:08:35 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:08:35 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:08:35 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:08:37 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:08:37 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:08:37 [Thread-1] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:08:37 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:08:39 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine null
+2025-05-03 14:08:39 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request null
+2025-05-03 14:08:39 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine null
+2025-05-03 14:08:39 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request null
+2025-05-03 14:17:56 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 14:17:57 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 14:17:57 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 14:17:57 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 14:17:57 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 14:17:57 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 14:17:57 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 14:17:57 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 14:17:57 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 14:18:08 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 14:18:08 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 14:18:08 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"LOGIN","dtoEmployee":{"id":1,"name":"","password":"p"},"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:18:08 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=LOGIN, employee=EmployeeDTO[1, , p]}
+2025-05-03 14:18:08 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[1, , p]
+2025-05-03 14:18:08 [Thread-0] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:18:08 [Thread-0] DEBUG copilot12354.mpp.ServicesImplementation - Employee 1 logged in.
+2025-05-03 14:18:08 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 14:18:09 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:18:09 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:18:09 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:18:09 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:22:12 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 14:22:12 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 14:22:12 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 14:22:12 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 14:22:12 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 14:22:12 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 14:22:12 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 14:22:12 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 14:22:12 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 14:25:09 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 14:25:09 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 14:25:09 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 14:25:09 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 14:25:09 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 14:25:09 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 14:25:09 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 14:25:09 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 14:25:09 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 14:25:28 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 14:25:28 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 14:25:28 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"LOGIN","dtoEmployee":{"id":1,"name":"","password":"p"}}
+2025-05-03 14:25:28 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=LOGIN, employee=EmployeeDTO[1, , p]}
+2025-05-03 14:25:28 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[1, , p]
+2025-05-03 14:25:28 [Thread-0] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:25:28 [Thread-0] DEBUG copilot12354.mpp.ServicesImplementation - Employee 1 logged in.
+2025-05-03 14:25:28 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 14:25:29 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS"}
+2025-05-03 14:25:29 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:25:29 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:25:29 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:25:33 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 14:25:33 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 14:25:33 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"LOGIN","dtoEmployee":{"id":2,"name":"","password":"p"}}
+2025-05-03 14:25:33 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=LOGIN, employee=EmployeeDTO[2, , p]}
+2025-05-03 14:25:33 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[2, , p]
+2025-05-03 14:25:33 [Thread-1] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 2
+2025-05-03 14:25:33 [Thread-1] DEBUG copilot12354.mpp.ServicesImplementation - Employee 2 logged in.
+2025-05-03 14:25:33 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 14:25:34 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS"}
+2025-05-03 14:25:34 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:25:34 [Thread-1] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:25:34 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:25:42 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS"}
+2025-05-03 14:25:42 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:25:42 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:25:42 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:25:47 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS"}
+2025-05-03 14:25:47 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:25:47 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:25:47 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:25:48 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"ADDTICKET","dtoTicket":{"clientId":1,"flightId":1}}
+2025-05-03 14:25:48 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=ADDTICKET, employee=null}
+2025-05-03 14:25:48 [Thread-0] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:25:48 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:25:48 [Thread-0] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Salvez entitatea Ticket{id=0, flight=Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=1000, location='RO Cluj-Napoca'}, client=Client{id=1, name='Client Fidel'}}
+2025-05-03 14:25:48 [Thread-0] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Save result: 1
+2025-05-03 14:25:48 [pool-2-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked()
+2025-05-03 14:25:48 [pool-2-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"REFRESH"}
+2025-05-03 14:25:48 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 14:25:48 [pool-2-thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked()
+2025-05-03 14:25:48 [pool-2-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked() response sent
+2025-05-03 14:25:48 [pool-2-thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"REFRESH"}
+2025-05-03 14:25:48 [pool-2-thread-1] DEBUG copilot12354.mpp.ServicesImplementation - Notifying client 1 about ticket booking.
+2025-05-03 14:25:48 [pool-2-thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked() response sent
+2025-05-03 14:25:48 [pool-2-thread-2] DEBUG copilot12354.mpp.ServicesImplementation - Notifying client 2 about ticket booking.
+2025-05-03 14:25:49 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"UPDATEFLIGHT","dtoFlight":{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"}}
+2025-05-03 14:25:49 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=UPDATEFLIGHT, employee=null}
+2025-05-03 14:25:49 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:25:49 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Actualizez entitatea Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=999, location='RO Cluj-Napoca'}
+2025-05-03 14:25:49 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS"}
+2025-05-03 14:25:49 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:25:49 [Thread-1] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:25:49 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Update result: 1
+2025-05-03 14:25:49 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:25:49 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 14:25:50 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS"}
+2025-05-03 14:25:50 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:25:50 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:25:50 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:26:02 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS"}
+2025-05-03 14:26:02 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:26:02 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:26:02 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:26:05 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS"}
+2025-05-03 14:26:05 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:26:05 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:26:05 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:26:07 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS"}
+2025-05-03 14:26:07 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:26:07 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:26:07 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:26:09 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS"}
+2025-05-03 14:26:09 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:26:09 [Thread-1] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:26:09 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:26:10 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS"}
+2025-05-03 14:26:10 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:26:10 [Thread-1] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:26:10 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:26:11 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS"}
+2025-05-03 14:26:11 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:26:11 [Thread-1] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:26:11 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:26:33 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 14:26:33 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 14:26:33 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 14:26:33 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 14:26:33 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 14:26:33 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 14:26:33 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 14:26:33 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 14:26:33 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 14:26:48 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 14:26:48 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 14:26:48 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"LOGIN","dtoEmployee":{"id":1,"name":"","password":"p"},"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:26:49 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=LOGIN, employee=EmployeeDTO[1, , p]}
+2025-05-03 14:26:49 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[1, , p]
+2025-05-03 14:26:49 [Thread-0] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:26:49 [Thread-0] DEBUG copilot12354.mpp.ServicesImplementation - Employee 1 logged in.
+2025-05-03 14:26:49 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 14:26:50 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:26:50 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:26:50 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:26:50 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:26:53 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 14:26:53 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 14:26:53 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"LOGIN","dtoEmployee":{"id":2,"name":"","password":"p"},"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:26:53 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=LOGIN, employee=EmployeeDTO[2, , p]}
+2025-05-03 14:26:53 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[2, , p]
+2025-05-03 14:26:53 [Thread-1] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 2
+2025-05-03 14:26:53 [Thread-1] DEBUG copilot12354.mpp.ServicesImplementation - Employee 2 logged in.
+2025-05-03 14:26:53 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 14:26:54 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:26:54 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:26:54 [Thread-1] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:26:54 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:27:05 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"ADDTICKET","dtoEmployee":null,"dtoTicket":{"clientId":1,"flightId":1},"dtoFlight":null}
+2025-05-03 14:27:05 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=ADDTICKET, employee=null}
+2025-05-03 14:27:05 [Thread-0] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:27:05 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:27:05 [Thread-0] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Salvez entitatea Ticket{id=0, flight=Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=1000, location='RO Cluj-Napoca'}, client=Client{id=1, name='Client Fidel'}}
+2025-05-03 14:27:05 [Thread-0] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Save result: 1
+2025-05-03 14:27:05 [pool-2-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked()
+2025-05-03 14:27:05 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 14:27:05 [pool-2-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"REFRESH"}
+2025-05-03 14:27:05 [pool-2-thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked()
+2025-05-03 14:27:05 [pool-2-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked() response sent
+2025-05-03 14:27:05 [pool-2-thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"REFRESH"}
+2025-05-03 14:27:05 [pool-2-thread-1] DEBUG copilot12354.mpp.ServicesImplementation - Notifying client 1 about ticket booking.
+2025-05-03 14:27:05 [pool-2-thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked() response sent
+2025-05-03 14:27:05 [pool-2-thread-2] DEBUG copilot12354.mpp.ServicesImplementation - Notifying client 2 about ticket booking.
+2025-05-03 14:27:05 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:27:05 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:27:05 [Thread-1] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:27:05 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:27:06 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"UPDATEFLIGHT","dtoEmployee":null,"dtoTicket":null,"dtoFlight":{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00:00","seats":999,"location":"RO Cluj-Napoca"}}
+2025-05-03 14:27:06 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=UPDATEFLIGHT, employee=null}
+2025-05-03 14:27:06 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:27:06 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Actualizez entitatea Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=999, location='RO Cluj-Napoca'}
+2025-05-03 14:27:06 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Update result: 1
+2025-05-03 14:27:06 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 14:27:07 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:27:07 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:27:07 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:27:07 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:27:31 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"ADDTICKET","dtoEmployee":null,"dtoTicket":{"clientId":1,"flightId":1},"dtoFlight":null}
+2025-05-03 14:27:31 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=ADDTICKET, employee=null}
+2025-05-03 14:27:31 [Thread-0] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:27:31 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:27:31 [Thread-0] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Salvez entitatea Ticket{id=0, flight=Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=999, location='RO Cluj-Napoca'}, client=Client{id=1, name='Client Fidel'}}
+2025-05-03 14:27:31 [Thread-0] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Save result: 1
+2025-05-03 14:27:31 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 14:27:31 [pool-3-thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked()
+2025-05-03 14:27:31 [pool-3-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked()
+2025-05-03 14:27:31 [pool-3-thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"REFRESH"}
+2025-05-03 14:27:31 [pool-3-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"REFRESH"}
+2025-05-03 14:27:31 [pool-3-thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked() response sent
+2025-05-03 14:27:31 [pool-3-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked() response sent
+2025-05-03 14:27:31 [pool-3-thread-2] DEBUG copilot12354.mpp.ServicesImplementation - Notifying client 2 about ticket booking.
+2025-05-03 14:27:31 [pool-3-thread-1] DEBUG copilot12354.mpp.ServicesImplementation - Notifying client 1 about ticket booking.
+2025-05-03 14:27:31 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:27:31 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:27:31 [Thread-1] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:27:31 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:27:32 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"UPDATEFLIGHT","dtoEmployee":null,"dtoTicket":null,"dtoFlight":{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00:00","seats":998,"location":"RO Cluj-Napoca"}}
+2025-05-03 14:27:32 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=UPDATEFLIGHT, employee=null}
+2025-05-03 14:27:32 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:27:32 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Actualizez entitatea Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=998, location='RO Cluj-Napoca'}
+2025-05-03 14:27:32 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Update result: 1
+2025-05-03 14:27:32 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 14:27:33 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:27:33 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:27:33 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:27:33 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":998,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:28:00 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"ADDTICKET","dtoEmployee":null,"dtoTicket":{"clientId":1,"flightId":1},"dtoFlight":null}
+2025-05-03 14:28:00 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=ADDTICKET, employee=null}
+2025-05-03 14:28:00 [Thread-1] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:28:00 [Thread-1] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:28:00 [Thread-1] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Salvez entitatea Ticket{id=0, flight=Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=998, location='RO Cluj-Napoca'}, client=Client{id=1, name='Client Fidel'}}
+2025-05-03 14:28:00 [Thread-1] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Save result: 1
+2025-05-03 14:28:00 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 14:28:00 [pool-4-thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked()
+2025-05-03 14:28:00 [pool-4-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked()
+2025-05-03 14:28:00 [pool-4-thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"REFRESH"}
+2025-05-03 14:28:00 [pool-4-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"REFRESH"}
+2025-05-03 14:28:00 [pool-4-thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked() response sent
+2025-05-03 14:28:00 [pool-4-thread-2] DEBUG copilot12354.mpp.ServicesImplementation - Notifying client 2 about ticket booking.
+2025-05-03 14:28:00 [pool-4-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked() response sent
+2025-05-03 14:28:00 [pool-4-thread-1] DEBUG copilot12354.mpp.ServicesImplementation - Notifying client 1 about ticket booking.
+2025-05-03 14:28:00 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:28:00 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:28:00 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:28:00 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":998,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:28:01 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:28:01 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:28:01 [Thread-1] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:28:01 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":998,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:28:02 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"UPDATEFLIGHT","dtoEmployee":null,"dtoTicket":null,"dtoFlight":{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00:00","seats":998,"location":"RO Cluj-Napoca"}}
+2025-05-03 14:28:02 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=UPDATEFLIGHT, employee=null}
+2025-05-03 14:28:02 [Thread-1] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:28:02 [Thread-1] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Actualizez entitatea Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=998, location='RO Cluj-Napoca'}
+2025-05-03 14:28:02 [Thread-1] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Update result: 1
+2025-05-03 14:28:02 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 14:28:03 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:28:03 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:28:03 [Thread-1] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:28:03 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":998,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:28:04 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:28:04 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:28:04 [Thread-1] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:28:04 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":998,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:28:06 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:28:06 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:28:06 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:28:06 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":998,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:28:07 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:28:07 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:28:07 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:28:07 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":998,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:28:08 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine null
+2025-05-03 14:28:08 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request null
+2025-05-03 14:28:09 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine null
+2025-05-03 14:28:09 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request null
+2025-05-03 14:28:24 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 14:28:24 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 14:28:24 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 14:28:24 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 14:28:24 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 14:28:24 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 14:28:24 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 14:28:24 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 14:28:24 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 14:31:12 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-05-03 14:31:12 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-05-03 14:31:12 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-05-03 14:31:12 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-05-03 14:31:12 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-05-03 14:31:12 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-05-03 14:31:12 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-05-03 14:31:12 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-05-03 14:31:12 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 14:31:29 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 14:31:29 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 14:31:29 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"LOGIN","dtoEmployee":{"id":1,"name":"","password":"p"},"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:31:29 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=LOGIN, employee=EmployeeDTO[1, , p]}
+2025-05-03 14:31:29 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[1, , p]
+2025-05-03 14:31:29 [Thread-0] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:31:29 [Thread-0] DEBUG copilot12354.mpp.ServicesImplementation - Employee 1 logged in.
+2025-05-03 14:31:29 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 14:31:30 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:31:30 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:31:30 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:31:30 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:31:33 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-05-03 14:31:33 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-05-03 14:31:33 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"LOGIN","dtoEmployee":{"id":2,"name":"","password":"p"},"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:31:33 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=LOGIN, employee=EmployeeDTO[2, , p]}
+2025-05-03 14:31:33 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[2, , p]
+2025-05-03 14:31:33 [Thread-1] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 2
+2025-05-03 14:31:33 [Thread-1] DEBUG copilot12354.mpp.ServicesImplementation - Employee 2 logged in.
+2025-05-03 14:31:33 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 14:31:34 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:31:34 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:31:34 [Thread-1] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:31:34 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":1000,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:31:41 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"ADDTICKET","dtoEmployee":null,"dtoTicket":{"clientId":1,"flightId":1},"dtoFlight":null}
+2025-05-03 14:31:41 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=ADDTICKET, employee=null}
+2025-05-03 14:31:41 [Thread-0] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:31:41 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:31:41 [Thread-0] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Salvez entitatea Ticket{id=0, flight=Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=1000, location='RO Cluj-Napoca'}, client=Client{id=1, name='Client Fidel'}}
+2025-05-03 14:31:41 [Thread-0] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Save result: 1
+2025-05-03 14:31:41 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 14:31:42 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"UPDATEFLIGHT","dtoEmployee":null,"dtoTicket":null,"dtoFlight":{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00:00","seats":999,"location":"RO Cluj-Napoca"}}
+2025-05-03 14:31:42 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=UPDATEFLIGHT, employee=null}
+2025-05-03 14:31:42 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:31:42 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Actualizez entitatea Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=999, location='RO Cluj-Napoca'}
+2025-05-03 14:31:42 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Update result: 1
+2025-05-03 14:31:42 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 14:31:42 [pool-2-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked()
+2025-05-03 14:31:42 [pool-2-thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked()
+2025-05-03 14:31:42 [pool-2-thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"REFRESH"}
+2025-05-03 14:31:42 [pool-2-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"REFRESH"}
+2025-05-03 14:31:42 [pool-2-thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked() response sent
+2025-05-03 14:31:42 [pool-2-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked() response sent
+2025-05-03 14:31:42 [pool-2-thread-2] DEBUG copilot12354.mpp.ServicesImplementation - Notifying client 2 about ticket booking.
+2025-05-03 14:31:42 [pool-2-thread-1] DEBUG copilot12354.mpp.ServicesImplementation - Notifying client 1 about ticket booking.
+2025-05-03 14:31:42 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:31:42 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:31:42 [Thread-1] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:31:43 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:31:43 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:31:43 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:31:43 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:31:43 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":999,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:31:50 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"ADDTICKET","dtoEmployee":null,"dtoTicket":{"clientId":1,"flightId":1},"dtoFlight":null}
+2025-05-03 14:31:50 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=ADDTICKET, employee=null}
+2025-05-03 14:31:50 [Thread-1] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:31:50 [Thread-1] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:31:50 [Thread-1] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Salvez entitatea Ticket{id=0, flight=Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=999, location='RO Cluj-Napoca'}, client=Client{id=1, name='Client Fidel'}}
+2025-05-03 14:31:50 [Thread-1] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Save result: 1
+2025-05-03 14:31:50 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 14:31:51 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"UPDATEFLIGHT","dtoEmployee":null,"dtoTicket":null,"dtoFlight":{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00:00","seats":998,"location":"RO Cluj-Napoca"}}
+2025-05-03 14:31:51 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=UPDATEFLIGHT, employee=null}
+2025-05-03 14:31:51 [Thread-1] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut entitatea cu id-ul 1
+2025-05-03 14:31:51 [Thread-1] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Actualizez entitatea Flight{id=1, destination='RO Bucharest', departure=0025-09-15T10:00, seats=998, location='RO Cluj-Napoca'}
+2025-05-03 14:31:51 [Thread-1] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Update result: 1
+2025-05-03 14:31:51 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-05-03 14:31:51 [pool-3-thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked()
+2025-05-03 14:31:51 [pool-3-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked()
+2025-05-03 14:31:51 [pool-3-thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"REFRESH"}
+2025-05-03 14:31:51 [pool-3-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"REFRESH"}
+2025-05-03 14:31:51 [pool-3-thread-2] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked() response sent
+2025-05-03 14:31:51 [pool-3-thread-2] DEBUG copilot12354.mpp.ServicesImplementation - Notifying client 2 about ticket booking.
+2025-05-03 14:31:51 [pool-3-thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker ticketBooked() response sent
+2025-05-03 14:31:51 [pool-3-thread-1] DEBUG copilot12354.mpp.ServicesImplementation - Notifying client 1 about ticket booking.
+2025-05-03 14:31:51 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:31:51 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:31:51 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:31:51 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":998,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:31:52 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine {"type":"GETALLFLIGHTS","dtoEmployee":null,"dtoTicket":null,"dtoFlight":null}
+2025-05-03 14:31:52 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request Request{type=GETALLFLIGHTS, employee=null}
+2025-05-03 14:31:52 [Thread-1] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-05-03 14:31:52 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":998,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":1,"location":"RO Bucharest"}]}
+2025-05-03 14:31:54 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine null
+2025-05-03 14:31:54 [Thread-1] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request null
+2025-05-03 14:31:54 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker run() requestLine null
+2025-05-03 14:31:54 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - class ClientJsonWorker handleRequest(Request request) request null

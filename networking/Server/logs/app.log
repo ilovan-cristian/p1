@@ -1,0 +1,17 @@
+2025-04-26 09:57:06 [main] INFO  copilot12354.mpp.StartJsonServer - Server properties set. {server.port=55555, url=jdbc:sqlite:/home/expanding/university/mpp/java/planingdatabase.sqlite} 
+2025-04-26 09:57:06 [main] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Constructed repository
+2025-04-26 09:57:06 [main] DEBUG copilot12354.mpp.jdbc.ClientRepoDb - Constructed repository
+2025-04-26 09:57:06 [main] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Constructed repository
+2025-04-26 09:57:06 [main] DEBUG copilot12354.mpp.jdbc.TicketRepoDb - Constructed repository
+2025-04-26 09:57:06 [main] DEBUG copilot12354.mpp.StartJsonServer - Starting server on port: 55555
+2025-04-26 09:57:06 [main] DEBUG copilot12354.mpp.utils.AbsConcurrentServer - Concurrent AbstractServer
+2025-04-26 09:57:06 [main] INFO  copilot12354.mpp.utils.JsonConcurrentServer - JsonConcurrentServer
+2025-04-26 09:57:06 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-04-26 09:57:10 [main] INFO  copilot12354.mpp.utils.AbstractServer - Client connected ...
+2025-04-26 09:57:10 [main] INFO  copilot12354.mpp.utils.AbstractServer - Waiting for clients on port 55555 ...
+2025-04-26 09:57:10 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - Login request ...{}EmployeeDTO[1, , p]
+2025-04-26 09:57:10 [Thread-0] DEBUG copilot12354.mpp.jdbc.EmployeeRepoDb - Caut entitatea cu id-ul 1
+2025-04-26 09:57:10 [Thread-0] DEBUG copilot12354.mpp.ServicesImplementation - Employee 1 logged in.
+2025-04-26 09:57:10 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK"}
+2025-04-26 09:57:11 [Thread-0] DEBUG copilot12354.mpp.jdbc.FlightRepoDb - Caut toate obiectele
+2025-04-26 09:57:11 [Thread-0] DEBUG copilot12354.mpp.jsonprotocol.ClientJsonWorker - sending response {"type":"OK","flights":[{"id":1,"destination":"RO Bucharest","departure":"0025-09-15T10:00","seats":998,"location":"RO Cluj-Napoca"},{"id":2,"destination":"RO Cluj-Napoca","departure":"0025-09-15T05:00","seats":0,"location":"RO Bucharest"}]}
